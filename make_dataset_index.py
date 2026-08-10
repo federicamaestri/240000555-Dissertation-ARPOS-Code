@@ -8,10 +8,8 @@ import pandas as pd
 # ==============================
 # This gets the main project folder: arpos-dissertation/
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
 # This is where your PIS-* folders are
 DATA_ROOT = PROJECT_ROOT / "data"
-
 # This is where the CSV will be saved
 OUTPUT_PATH = PROJECT_ROOT / "results" / "dataset_index.csv"
 
